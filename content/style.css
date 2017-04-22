@@ -1,0 +1,125 @@
+html, body {
+    height: 100%;
+}
+body {
+    margin: 0;
+    /*background-color: #fefdf2;*/
+    font-size: 16px;
+    font-family: Georgia, "Bitstream Charter", serif;
+}
+a:active, a:hover {
+    color: #ff4b33;
+}
+a:visited {
+    color: #743399;
+}
+a:link {
+    color: #0066cc;
+}
+.flex-container {
+    height: 100%;
+    padding: 0;
+    margin: 10px 0 0 0;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: center;
+}
+.row {
+    width: 940px;
+    clear: both;
+}
+.flex-item {
+    background-color: white;
+    width: auto;
+    height: auto;
+    /*text-align: center;*/
+    clear: both;
+}
+.flex-item.separator {
+    border-top: 1px #aaa solid;
+}
+#headerlogo {
+    background-image: url('header.jpg');
+    width: 940px;
+    height: 198px;
+    margin: 0 auto;
+}
+#kundenkartenlogo {
+    background-image: url('kundenkarten.jpg');
+    width: 456px;
+    height: 290px;
+    margin: 0 auto;
+}
+#bk1logo {
+    background-image: url('bk1.jpg');
+    width: 224px;
+    height: 300px;
+    float: left;
+}
+#bk2logo {
+    background-image: url('bk2.jpg');
+    width: 300px;
+    height: 224px;
+    float: right;
+}
+#bk3logo {
+    background-image: url('bk3.jpg');
+    width: 224px;
+    height: 300px;
+    float: left;
+}
+#bk4logo {
+    background-image: url('bk4.jpg');
+    width: 224px;
+    height: 300px;
+    float: right;
+}
+#bk5logo {
+    background-image: url('bk5.jpg');
+    width: 223px;
+    height: 300px;
+    float: left;
+}
+.floatstop {
+    clear: both;
+}
+#menu {
+    font-size: 13px;
+    font-family: "Helvetica Neue", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+        float:right;
+    position:relative;
+    left:-50%;
+    text-align:left;
+}
+#menu ul {
+   list-style:none;
+    position:relative;
+    left:50%;
+}
+#menu li {
+    float:left;
+    /* ie needs position:relative here*/
+    position:relative;
+}
+#menu li a {
+    color: #aaa;
+    display: block;
+    text-align: center;
+    padding: 8px 16px;
+    text-decoration: none;
+    font-style: italic;
+}
+#menu li a:hover {
+    color: #000;
+    background-color: #eee;
+}
+h1 {
+    font-size: 16px;
+    text-decoration: underline;
+}
+#karte {
+    float: right;
+}
