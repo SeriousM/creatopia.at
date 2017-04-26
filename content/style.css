@@ -172,3 +172,21 @@ h3 {
 #impressum a {
     color: #969696;
 }
+.redalert {
+    color: #f00;
+    font-weight: bolder;
+}
+.blink {
+  animation: blink-animation 1s steps(5, start) infinite;
+  -webkit-animation: blink-animation 1s steps(5, start) infinite;
+}
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
