@@ -1,9 +1,11 @@
 html, body {
     height: 100%;
 }
+* {
+    -webkit-padding-start: 0;
+}
 body {
     margin: 0;
-    /*background-color: #fefdf2;*/
     font-size: 16px;
     font-family: Georgia, "Bitstream Charter", serif;
 }
@@ -27,6 +29,12 @@ a:link {
     display: flex;
     justify-content: center;
 }
+.fleft {
+    float: left;
+}
+.fright {
+    float: right;
+}
 .row {
     width: 940px;
     clear: both;
@@ -35,7 +43,6 @@ a:link {
     background-color: white;
     width: auto;
     height: auto;
-    /*text-align: center;*/
     clear: both;
 }
 .flex-item.separator {
@@ -89,15 +96,11 @@ a:link {
 #menu {
     font-size: 13px;
     font-family: "Helvetica Neue", Arial, Helvetica, "Nimbus Sans L", sans-serif;
-        float:right;
-    position:relative;
-    left:-50%;
-    text-align:left;
+    position: absolute;
+    top: 60px;
 }
 #menu ul {
    list-style:none;
-    position:relative;
-    left:50%;
 }
 #menu li {
     float:left;
@@ -107,7 +110,6 @@ a:link {
 #menu li a {
     color: #aaa;
     display: block;
-    text-align: center;
     padding: 8px 16px;
     text-decoration: none;
     font-style: italic;
