@@ -49,7 +49,7 @@ a:link {
     clear: both;
 }
 .flex-item.separator {
-    /*border-top: 1px #aaa solid;*/
+    margin-bottom: 50px;
 }
 #headerlogo {
     background-image: url('header.jpg');
@@ -63,35 +63,32 @@ a:link {
     height: 290px;
     margin: 0 auto;
 }
-#bk1logo {
+#bkbox {
+    float: right;
+    border: 1px dashed #9d9d9d;
+    padding: 8px;
+    margin: 0 0 5px 5px;
+}
+#bkrosa, #bkgelb, #bkorange, #bkgruen, #bkgold {
+    width: 224px;
+    height: 300px;
+    background-size:100%;
+    margin-bottom: 10px;
+}
+#bkrosa {
     background-image: url('bk1.jpg');
-    width: 224px;
-    height: 300px;
-    float: left;
 }
-#bk2logo {
+#bkgelb {
     background-image: url('bk2.jpg');
-    width: 300px;
-    height: 224px;
-    float: right;
 }
-#bk3logo {
+#bkorange {
     background-image: url('bk3.jpg');
-    width: 224px;
-    height: 300px;
-    float: left;
 }
-#bk4logo {
+#bkgruen {
     background-image: url('bk4.jpg');
-    width: 224px;
-    height: 300px;
-    float: right;
 }
-#bk5logo {
+#bkgold {
     background-image: url('bk5.jpg');
-    width: 223px;
-    height: 300px;
-    float: left;
 }
 #menu {
     font-size: 13px;
@@ -158,4 +155,14 @@ h3 {
 }
 #stammkundenkarte i {
     font-size: smaller;
+}
+#impressum {
+    margin-top: 75px;
+    text-align: center;
+    color: #969696;
+    font-style: italic;
+    font-size: smaller;
+}
+#impressum a {
+    color: #969696;
 }
