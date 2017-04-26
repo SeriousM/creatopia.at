@@ -134,7 +134,7 @@ h3 {
     margin: 0;
 }
 #zeiten p {
-    font-size: 16px;
+    font-size: 14px;
     margin: 0 0 8px 0;
     text-align: right;
     display: inline-block;
@@ -154,14 +154,14 @@ h3 {
     width: 400px;
 }
 #stammkundenkarte i {
-    font-size: smaller;
+    font-size: 13px;
 }
 #impressum {
     margin-top: 75px;
     text-align: center;
     color: #969696;
     font-style: italic;
-    font-size: smaller;
+    font-size: 13px;
 }
 #impressum a {
     color: #969696;
